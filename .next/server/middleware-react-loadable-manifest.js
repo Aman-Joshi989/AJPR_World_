@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components/wrappers/AppProvidersWrapper.tsx -> ../BackToTop\":{\"id\":\"components/wrappers/AppProvidersWrapper.tsx -> ../BackToTop\",\"files\":[\"static/chunks/_app-pages-browser_src_components_BackToTop_tsx.js\"]}}"
