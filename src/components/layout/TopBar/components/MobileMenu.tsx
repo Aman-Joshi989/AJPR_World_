@@ -30,7 +30,7 @@ const menuItems = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
   { path: '/services', label: 'Services' },
-  { path: '/case', label: 'Case' },
+  // { path: '/case', label: 'Case' },
   { path: '/blog', label: 'Blog' },
   { path: '/contact', label: 'Contact' },
 ]

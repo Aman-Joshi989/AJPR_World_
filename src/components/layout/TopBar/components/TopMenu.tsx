@@ -34,10 +34,10 @@ const TopMenu = ({ classname, arrow, button }: ClassType) => {
             Services
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/case">Case Study</Link>
 
-        </li>
+        </li> */}
         <li>
           <Link href="/blog">
             Blogs
