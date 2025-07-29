@@ -1,6 +1,7 @@
 import AppProvidersWrapper from '@/components/wrappers/AppProvidersWrapper'
 import type { Metadata } from 'next'
 import { Figtree, Nunito_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next';
 
 import 'aos/dist/aos.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -42,6 +43,7 @@ export default function RootLayout({
         <AppProvidersWrapper>
           <TopBar />{children}
           <CTA />
+          <Analytics />
           <Footer /></AppProvidersWrapper>
       </body>
     </html>
