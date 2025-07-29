@@ -117,17 +117,17 @@ const MobileMenu = ({ openMobilMenu, toggleMobilMenu }: MenuType) => {
             <div className="space20" />
             <span>
               <Link href="">
-                <FaRegEnvelope className="fa-regular" /> +57 9954 6476
+                <FaRegEnvelope className="fa-regular" /> contact@ajprworld.com
               </Link>
             </span>
             <span>
               <Link href="">
-                <FaPhone className="fa-solid" /> hello@exdos.com
+                <FaPhone className="fa-solid" /> +91 9220970755
               </Link>
             </span>
             <span>
               <Link href="">
-                <FaLocationDot className="fa-solid" /> Bhemeara,Kushtia
+                <FaLocationDot className="fa-solid" /> Haldwani, Uttarakhand
               </Link>
             </span>
           </div>
@@ -136,14 +136,14 @@ const MobileMenu = ({ openMobilMenu, toggleMobilMenu }: MenuType) => {
           <div className="vl-offcanvas-social">
             <h4 className="vl-offcanvas-sm-title">Follow Us</h4>
             <div className="space20" />
-            <Link href="">
+            {/* <Link href="">
               <FaFacebookF />
             </Link>
             &nbsp;
             <Link href="">
               <FaInstagram />
             </Link>
-            &nbsp;
+            &nbsp; */}
             <Link href="">
               <FaLinkedinIn />
             </Link>
