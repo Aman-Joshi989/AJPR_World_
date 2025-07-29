@@ -22,9 +22,9 @@ const icons = [
 ]
 
 const member = [
-  { iamge: team8, name: 'SR. Alex Robertson', role: 'Head Of Cybersecurity' },
-  { iamge: team9, name: 'Shelia Abernathy', role: 'Software Development' },
-  { iamge: team10, name: 'Devin Romaguera', role: 'Data Analytics Specialist' },
+  { iamge: team8, name: 'Aman Joshi', role: 'Data Analytics Specialist' },
+  { iamge: team9, name: 'Priyank Rakholia', role: 'Business Development Manager' },
+  { iamge: team10, name: 'Jatin Vaishnav', role: 'Software Development' },
   { iamge: team11, name: 'SR. Alex Robertson', role: 'Head Of Cybersecurity' },
   { iamge: team12, name: 'Shelia Abernathy', role: 'Software Development' },
   { iamge: team13, name: 'Devin Romaguera', role: 'Data Analytics Specialist' },
