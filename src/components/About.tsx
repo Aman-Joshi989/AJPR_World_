@@ -61,7 +61,7 @@ const About = () => {
                   <span>
                     <Image src={sublogo} alt="" />
                   </span>
-                  About AJPR Wol IT Solution
+                  About AJPR World IT Solution
                 </h5>
                 <div className="space24" />
                 <h2 className="text-anime-style-3">Unlock Business Potential with Tailored IT Services</h2>
