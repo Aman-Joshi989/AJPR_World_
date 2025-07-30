@@ -92,7 +92,7 @@ const Blog = () => {
                       <Image src={item.image} alt="" />
                     </div>
                     <div className="text">
-                      <Link href="/pages/team">{item.name}</Link>
+                      <Link href="/team">{item.name}</Link>
                       <div className="space12" />
                       <p>{item.role}</p>
                     </div>

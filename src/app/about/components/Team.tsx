@@ -31,7 +31,7 @@ export const icons: SocialIconType[] = [
 export const member = [
   { image: team1, name: 'Aman Joshi', role: 'Data Analytics Specialist' },
   { image: team2, name: 'Priyank Rakholia', role: 'Operations' },
-  { image: team3, name: 'Jatin Vaishnav', role: 'Software Development' },
+  { image: team3, name: 'Jatin Vaishnav', role: 'SDE-3' },
 ]
 
 const Team = () => {
@@ -64,7 +64,7 @@ const Team = () => {
                   </div>
                   <div className="content-area">
                     <div className="text">
-                      <Link href="/pages/team">{item.name}</Link>
+                      <Link href="/team">{item.name}</Link>
                       <div className="space8" />
                       <p>{item.role}</p>
                     </div>

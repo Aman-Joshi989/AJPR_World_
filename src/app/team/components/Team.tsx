@@ -12,12 +12,9 @@ import share from '@/assets/img/icons/share1.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa6'
+import { FaLinkedinIn } from 'react-icons/fa6'
 
 const icons = [
-  { url: '', icon: FaFacebookF },
-  { url: '', icon: FaInstagram },
-  { url: '', icon: FaYoutube },
   { url: '', icon: FaLinkedinIn },
 ]
 
@@ -47,7 +44,7 @@ const Team = () => {
                   </div>
                   <div className="content-area">
                     <div className="text">
-                      <Link href="/pages/team">{item.name}</Link>
+                      <Link href="/team">{item.name}</Link>
                       <div className="space8" />
                       <p>{item.role}</p>
                     </div>

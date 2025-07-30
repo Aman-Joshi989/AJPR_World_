@@ -15,10 +15,8 @@ export type LinkType = {
 }
 
 const icons = [
-  { url: '', icon: FaFacebookF },
-  { url: '', icon: FaLinkedinIn },
+  { url: 'https://www.linkedin.com/company/ajpr-world', icon: FaLinkedinIn },
   { url: '', icon: FaInstagram },
-  { url: '', icon: FaYoutube },
 ]
 
 export const link: LinkType[] = [

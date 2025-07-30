@@ -141,7 +141,7 @@ const Testimonial = () => {
                             <Image src={item.image} alt="" />
                           </div>
                           <div className="man-text">
-                            <Link href="/pages/team">{item.name}</Link>
+                            <Link href="/team">{item.name}</Link>
                             <div className="space12" />
                             <p>{item.position}</p>
                           </div>

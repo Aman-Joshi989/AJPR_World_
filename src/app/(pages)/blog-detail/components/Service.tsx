@@ -148,7 +148,7 @@ const Service = () => {
                           <Link href="" className="date">
                             <Image src={calender1} alt="" /> 8 December 2024
                           </Link>
-                          <Link href="/pages/team" className="name">
+                          <Link href="/team" className="name">
                             Mr. Ana Ritchie
                           </Link>
                         </div>
@@ -174,7 +174,7 @@ const Service = () => {
                           <Link href="" className="date">
                             <Image src={calender1} alt="" /> 12 May 2024
                           </Link>
-                          <Link href="/pages/team" className="name">
+                          <Link href="/team" className="name">
                             Matthew Kuhnemann
                           </Link>
                         </div>

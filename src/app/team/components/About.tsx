@@ -59,7 +59,7 @@ const About = () => {
                 </Row>
                 <div className="check-icons aniamtion-key-1">
                   <Image src={check} alt="" />
-                  <p>With 15+ years of experience IT solution help community.</p>
+                  <p>With 4+ years of experience IT solution help community.</p>
                 </div>
               </div>
             </Col>

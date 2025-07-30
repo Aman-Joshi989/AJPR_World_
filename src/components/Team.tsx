@@ -7,14 +7,7 @@ import logo from '@/assets/img/icons/sub-logo1.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa6'
 
-export const icons = [
-  { url: '', icon: FaFacebookF },
-  { url: '', icon: FaLinkedinIn },
-  { url: '', icon: FaInstagram },
-  { url: '', icon: FaYoutube },
-]
 
 export const member = [
   { image: team1, name: 'Aman Joshi', role: 'Data Analytics Specialist' },
@@ -52,28 +45,16 @@ const Team = () => {
                   </div>
                   <div className="content-area">
                     <div className="text">
-                      <Link href="/pages/team">{item.name}</Link>
+                      <Link href="/team">{item.name}</Link>
                       <div className="space8" />
                       <p>{item.role}</p>
                     </div>
                     <div className="icons">
-                      <Link href="">
+                      <Link href="/team">
                         <Image src={share} alt="" />
                       </Link>
                     </div>
                   </div>
-                  <ul>
-                    {icons.map((item, idx) => {
-                      const Icon = item.icon
-                      return (
-                        <li key={idx}>
-                          <Link href="">
-                            <Icon />
-                          </Link>
-                        </li>
-                      )
-                    })}
-                  </ul>
                 </div>
               </Col>
             ))}

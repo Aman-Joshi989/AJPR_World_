@@ -50,7 +50,7 @@ const About = () => {
                 </Row>
                 <div className="check-icons aniamtion-key-1">
                   <Image src={check1} alt="" />
-                  <p>With 15+ years of experience IT solution help community.</p>
+                  <p>With 4+ years of experience IT solution help community.</p>
                 </div>
               </div>
             </Col>
@@ -67,7 +67,7 @@ const About = () => {
                 <h2 className="text-anime-style-3">Unlock Business Potential with Tailored IT Services</h2>
                 <div className="space16" />
                 <p data-aos="fade-left" data-aos-duration={800}>
-                  At AJPR Wol, we understand that every business unique, which is why we offer customized IT solutions designed to meet.
+                  At AJPR World, we understand that every business unique, which is why we offer customized IT solutions designed to meet.
                 </p>
                 <div className="space28" />
                 <Row data-aos="fade-left" data-aos-duration={900}>
