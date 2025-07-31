@@ -30,7 +30,12 @@ const Figtrees = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: 'AJPR World - Technology & It Solutions Services',
+  title: {
+    default: "AJPR World",
+    template: "%s- AJPR World"
+  },
+  description: "AJPR WORLD offers professional web development, digital solutions, and smart design services to help businesses grow online.",
+
 }
 
 export default function RootLayout({
