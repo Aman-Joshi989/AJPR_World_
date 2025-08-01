@@ -29,8 +29,8 @@ export const icons: SocialIconType[] = [
 ]
 
 export const member = [
-  { image: team1, name: 'Aman Joshi', role: 'Data Analytics Specialist' },
-  { image: team2, name: 'Priyank Rakholia', role: 'Operations' },
+  { image: team1, name: 'Aman Joshi', role: 'Data Analyst Specialist' },
+  { image: team2, name: 'Priyank Rakholia', role: 'Business Development Manager' },
   { image: team3, name: 'Jatin Vaishnav', role: 'SDE-3' },
 ]
 

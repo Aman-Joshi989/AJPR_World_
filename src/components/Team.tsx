@@ -10,9 +10,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 
 export const member = [
-  { image: team1, name: 'Aman Joshi', role: 'Data Analytics Specialist' },
+  { image: team1, name: 'Aman Joshi', role: 'Data Analyst Specialist' },
   { image: team2, name: 'Priyank Rakholia', role: 'Business Development Manager' },
-  { image: team3, name: 'Jatin Vaishnav', role: 'Software Development' },
+  { image: team3, name: 'Jatin Vaishnav', role: 'SDE-3' },
 ]
 
 const Team = () => {
