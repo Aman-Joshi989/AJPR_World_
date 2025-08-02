@@ -11,9 +11,10 @@ import Work from '@/components/Work'
 import Contact from './contact/components/Contact'
 
 export const metadata: Metadata = {
-  title: 'AJPR World- Technology & It Solutions Services',
+  title: 'AJPR World - Technology & It Solutions Services',
+  keywords: ['', '', '', '', ''],
   icons: {
-    icon: logo.src,
+    icon: "/favicon.ico",
   },
 }
 

@@ -14,9 +14,9 @@ import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaLinkedinIn } from 'react-icons/fa6'
 
-const icons = [
-  { url: '', icon: FaLinkedinIn },
-]
+// const icons = [
+//   { url: '', icon: FaLinkedinIn },
+// ]
 
 const member = [
   { iamge: team8, name: 'Aman Joshi', role: 'Data Analyst Specialist' },
@@ -54,7 +54,7 @@ const Team = () => {
                       </Link>
                     </div>
                   </div>
-                  <ul>
+                  {/* <ul>
                     {icons.map((item, idx) => {
                       const Icon = item.icon
                       return (
@@ -65,12 +65,12 @@ const Team = () => {
                         </li>
                       )
                     })}
-                  </ul>
+                  </ul> */}
                 </div>
               </Col>
             ))}
 
-            <Pagination />
+            {/* <Pagination /> */}
           </Row>
         </Container>
       </div>

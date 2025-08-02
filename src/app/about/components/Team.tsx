@@ -21,12 +21,12 @@ export type SocialIconType = {
   icon: IconType
 }
 
-export const icons: SocialIconType[] = [
-  { url: '', icon: FaFacebookF },
-  { url: '', icon: FaLinkedinIn },
-  { url: '', icon: FaInstagram },
-  { url: '', icon: FaYoutube },
-]
+// export const icons: SocialIconType[] = [
+//   { url: '', icon: FaFacebookF },
+//   { url: '', icon: FaLinkedinIn },
+//   { url: '', icon: FaInstagram },
+//   { url: '', icon: FaYoutube },
+// ]
 
 export const member = [
   { image: team1, name: 'Aman Joshi', role: 'Data Analyst Specialist' },
@@ -74,7 +74,7 @@ const Team = () => {
                       </Link>
                     </div>
                   </div>
-                  <ul>
+                  {/* <ul>
                     {icons.map((item, idx) => {
                       const Icon = item.icon
                       return (
@@ -85,7 +85,7 @@ const Team = () => {
                         </li>
                       )
                     })}
-                  </ul>
+                  </ul> */}
                 </div>
               </Col>
             ))}
