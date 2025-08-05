@@ -15,47 +15,41 @@ export type ServiceType = {
   image: StaticImageData
   title: string
   description: string
-  number: number
 }
 
 export const business: ServiceType[] = [
   {
     image: icon1,
-    title: 'Cyber Security Solution',
-    description: 'Our advanced cybersecurity solution is designed to protect against ever-evolving threats — our approach ensures reliability and peace of mind.',
-    number: 1,
+    title: 'Digital Strategy and Design',
+    description: 'We help craft digital experiences through strategic planning and user-focused design that drives engagement and growth.',
   },
   {
     image: icon2,
-    title: 'Scalable Cloud Solutions',
-    description: 'Our cloud solutions scale with your business needs — built for flexibility, security, and high performance.',
-    number: 2,
+    title: 'Cloud and Infrastructure',
+    description: 'Scalable, secure, and high-performance cloud infrastructure solutions tailored to support your evolving business needs.',
   },
   {
     image: icon3,
-    title: 'Data Protection Services',
-    description: 'Our data services ensure your critical information is secure, backed up, and always accessible.',
-    number: 3,
+    title: 'Intelligent Automation',
+    description: 'We streamline your operations with AI-driven automation to improve efficiency, reduce costs, and eliminate manual tasks.',
   },
   {
     image: icon4,
-    title: 'Optimization Management',
-    description: 'We fine-tune your IT systems to enhance speed, reduce cost, and boost performance end-to-end.',
-    number: 4,
+    title: 'Application Security',
+    description: 'Protect your applications with robust security measures including vulnerability assessments and threat detection.',
   },
   {
     image: icon5,
-    title: 'HelpDesk 360 Solutions',
-    description: 'Get round-the-clock IT support with fast response times, expert help, and zero downtime.',
-    number: 5,
+    title: 'Business Intelligence',
+    description: 'Turn raw data into actionable insights with our BI solutions to make informed and impactful business decisions.',
   },
   {
     image: icon6,
-    title: 'Software Development',
-    description: 'From idea to execution, we deliver custom-built software that powers your digital growth.',
-    number: 6,
+    title: 'Custom Application Development',
+    description: 'From concept to deployment, we build tailored applications that align with your business goals and user needs.',
   },
 ]
+
 
 const Serviece = () => {
   return (
@@ -102,7 +96,6 @@ const Serviece = () => {
                   <div className="space16" />
                   <p>{item.description}</p>
                   <div className="space24" />
-                  <h5>0{item.number}</h5>
                 </div>
               </Col>
             ))}

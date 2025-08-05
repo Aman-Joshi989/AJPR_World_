@@ -33,7 +33,7 @@ const Solutions = () => {
                 <div className="bg-progress" data-aos="fade-left" data-aos-duration={900}>
                   <div className="progress-bar">
                     <label>
-                      It Solution <span>98%</span>
+                      Business Intelligence<span>98%</span>
                     </label>
                     <div className="progress">
                       <div className="progress-inner" style={{ width: '98%' }} />
@@ -41,7 +41,7 @@ const Solutions = () => {
                   </div>
                   <div className="progress-bar">
                     <label>
-                      Cyber Security <span>99%</span>
+                      Digital Strategy and Design<span>99%</span>
                     </label>
                     <div className="progress">
                       <div className="progress-inner" style={{ width: '99%' }} />
@@ -49,7 +49,7 @@ const Solutions = () => {
                   </div>
                   <div className="progress-bar">
                     <label>
-                      Cloud Solution <span>99%</span>
+                      Cloud and Infrastructure<span>99%</span>
                     </label>
                     <div className="progress">
                       <div className="progress-inner" style={{ width: '99%' }} />
