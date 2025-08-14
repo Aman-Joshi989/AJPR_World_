@@ -41,14 +41,14 @@ export const slider: TestimonialType[] = [
     testimonial: "The level of expertise and professionalism shown by AJPR World is exceptional. They understood our unique challenges and delivered solutions that exceeded our expectations. Our productivity has increased by 40%.",
     rating: 5
   },
-  {
-    image: tes4,
-    name: 'Pankaj Sammal',
-    position: 'Owner',
-    company: 'Pankaj Sammal Arts',
-    testimonial: "AJPR World's comprehensive approach to IT management has been game-changing for us. Their proactive monitoring and swift problem resolution have minimized downtime and kept our operations running smoothly 24/7.",
-    rating: 4
-  },
+  // {
+  //   image: tes4,
+  //   name: 'Pankaj Sammal',
+  //   position: 'Owner',
+  //   company: 'Pankaj Sammal Arts',
+  //   testimonial: "AJPR World's comprehensive approach to IT management has been game-changing for us. Their proactive monitoring and swift problem resolution have minimized downtime and kept our operations running smoothly 24/7.",
+  //   rating: 4
+  // },
   // {
   //   image: tes5,
   //   name: '',
